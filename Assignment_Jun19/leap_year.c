@@ -11,7 +11,7 @@ void main(){
     
     // year is a leap year if it's divisible by 400 or 4 but not by 100
     if((year % 400 == 0 || year % 4 == 0) && year % 100 != 0)
-        printf("%d is a Leap Year", year);
+        printf("%d is a Leap Year\n", year);
     else
-        printf("%d is NOT a Leap Year", year);
+        printf("%d is NOT a Leap Year\n", year);
 }
