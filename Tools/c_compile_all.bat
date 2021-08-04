@@ -1,7 +1,7 @@
 @echo off
 set loc=%~fp1
 set binpath=bin
-set hashalg=sha1
+set hashalg=sha256
 set hashpath=%binpath%\%hashalg%
 
 if "%1"=="" (
@@ -56,7 +56,7 @@ if "%1"=="" (
 
 :compile
     echo Compiling %~nx1
-    @REM gcc %~1 -o %loc%\%binpath%\%~n1.exe
+    gcc %~1 -o %loc%\%binpath%\%~n1.exe
     exit /b
 
 :compare_hash
