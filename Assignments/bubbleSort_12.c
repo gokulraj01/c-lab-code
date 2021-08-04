@@ -41,7 +41,7 @@ int main(){
                 elements[j+1] = elements[j];
                 elements[j] = temp;
                 // printf("SWAP: [%d with %d]\n",elements[j+1] ,elements[j]);   //for debug
-                arr_show(elements, n);
+                // arr_show(elements, n);  //for debug
             }
         }
         // printf("----\n");
