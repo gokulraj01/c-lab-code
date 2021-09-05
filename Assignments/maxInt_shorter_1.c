@@ -1,3 +1,5 @@
+// Author: Gokul Raj, 235, R2A, CSE
+
 //Experiment 1 - Read 3 integer values and find the largest among them.
 
 // Programme to find largest integer among 3 given integers

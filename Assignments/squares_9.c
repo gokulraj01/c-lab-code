@@ -1,3 +1,5 @@
+// Author: Gokul Raj, 235, R2A, CSE
+
 //Experiment 9 - Square of numbers from 1 to 100.
 #include <stdio.h>
 

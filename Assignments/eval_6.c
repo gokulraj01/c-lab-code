@@ -1,3 +1,5 @@
+// Author: Gokul Raj, 235, R2A, CSE
+
 //  Experiment 6 - Evaluate the arithmetic expression ((a-b/c*d+e)*(f+g)) and display its solution.
 #include <stdio.h>
 

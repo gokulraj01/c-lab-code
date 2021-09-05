@@ -1,3 +1,5 @@
+// Author: Gokul Raj, 235, R2A, CSE
+
 //Experiment 4 - Read two numbers, add them and display their sum.
 #include <stdio.h>
 

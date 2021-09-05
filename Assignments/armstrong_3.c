@@ -1,3 +1,5 @@
+// Author: Gokul Raj, 235, R2A, CSE
+
 //Experiment 3 - Read a natural number and check whether the given number is Armstrong or not.
 
 // Checking if a number is Armstrong Number {sum of cubes of digits =  number itself}

@@ -1,3 +1,5 @@
+// Author: Gokul Raj, 235, R2A, CSE
+
 //Experiment 7 - Determine the volume of a sphere for a given radius.
 #include <stdio.h>
 

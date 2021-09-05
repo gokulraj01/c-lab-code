@@ -1,3 +1,5 @@
+// Author: Gokul Raj, 235, R2A, CSE
+
 //Experiment 11 - Search an element in  an array using Linear Search.
 #include <stdio.h>
 

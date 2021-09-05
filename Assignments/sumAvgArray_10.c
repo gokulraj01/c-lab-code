@@ -1,3 +1,5 @@
+// Author: Gokul Raj, 235, R2A, CSE
+
 //Experiment 10 - Find the sum and average of numbers in an array.
 #include <stdio.h>
 

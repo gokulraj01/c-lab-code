@@ -1,3 +1,5 @@
+// Author: Gokul Raj, 235, R2A, CSE
+
 //Experiment 8 - Odd or even depending on an integer value.
 #include <stdio.h>
 

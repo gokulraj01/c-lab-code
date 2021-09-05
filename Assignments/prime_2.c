@@ -1,3 +1,5 @@
+// Author: Gokul Raj, 235, R2A, CSE
+
 // Experiment 2 - Read a natural number and check whether the number is prime or not.
 
 // Programme for primality check
