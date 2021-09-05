@@ -4,6 +4,7 @@
 #include <stdio.h>
 
 #define ARR_LEN 256
+#define LIST_LEN 3
 
 // Define a "employee" structure 
 struct employee
@@ -18,17 +19,22 @@ struct employee
 
 // function to display an "employee" structure data
 void show_emp(struct employee e){
-    printf("Name: %s\nAge: %d\nID: %d\nDesignation: %s\nGender: %c\nSalary: %d\n\n", e.name, e.age, e.id, e.post, e.gender, e.salary);
+    printf("\nName: %s\nAge: %d\nID: %d\nDesignation: %s\nGender: %c\nSalary: %d\n\n", e.name, e.age, e.id, e.post, e.gender, e.salary);
 }
 
 void main(){
-    // init 3 employees in struct employee
-    struct employee e1 = {"John Doe", 42, 'M', 25000, "Supervisor", 2377};
-    struct employee e2 = {"Alice John", 29, 'F', 50000, "Manager", 5299};
-    struct employee e3 = {"Jack Frost", 50, 'M', 98000, "CEO", 4845};
+    int id = LIST_LEN+1;
+    // init 3 employees in array of struct employee
+    struct employee employee_list[LIST_LEN] = {
+        {"John Doe", 42, 'M', 25000, "Supervisor", 2377},
+        {"Alice John", 29, 'F', 50000, "Manager", 5299},
+        {"Jack Frost", 50, 'M', 98000, "CEO", 4845}
+    };
+    while(id > LIST_LEN){
+        printf("Enter employee index to view (MAX: %d): ", LIST_LEN);
+        scanf("%d", &id);
+    }
 
-    // call fn to display all of them
-    show_emp(e1);
-    show_emp(e2);
-    show_emp(e3);
+    // call fn to display corresponding employee
+    show_emp(employee_list[id-1]);
 }
