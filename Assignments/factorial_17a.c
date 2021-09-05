@@ -1,6 +1,6 @@
 // Author: Gokul Raj, 235, R2A, CSE
 
-//Experiment 17 - Find the factorial of a given natural number.
+//Experiment 17A - Find the factorial of a given natural number (looped).
 #include <stdio.h>
 
 void main(){
