@@ -7,10 +7,14 @@ void main(){
     int n, fact = 1;
     printf("Enter a number: ");
     scanf("%d", &n);
+    if(n > 0){
+        // multpily numbers from 1 to n together to get factorial
+        for(int i=1; i<=n; i++)
+            fact *= i;
+    }
+    // if 0 or less than 0, set factorial as 0
+    else
+        fact = 0;
 
-    // multpily numbers from 1 to n together to get factorial
-    for(int i=1; i<=n; i++)
-        fact *= i;
-    
     printf("Factorial of %d is: %d", n, fact);
 }
