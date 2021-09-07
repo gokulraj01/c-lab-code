@@ -17,11 +17,6 @@ struct employee
     int id;
 };
 
-// function to display an "employee" structure data
-void show_emp(struct employee e){
-    printf("\nName: %s\nAge: %d\nID: %d\nDesignation: %s\nGender: %c\nSalary: %d\n\n", e.name, e.age, e.id, e.post, e.gender, e.salary);
-}
-
 void main(){
     int id = LIST_LEN+1;
     // init 3 employees in array of struct employee
@@ -36,5 +31,5 @@ void main(){
     }
 
     // call fn to display corresponding employee
-    show_emp(employee_list[id-1]);
+    printf("\nName: %s\nAge: %d\nID: %d\nDesignation: %s\nGender: %c\nSalary: %d\n\n", employee_list[id-1].name, employee_list[id-1].age, employee_list[id-1].id, employee_list[id-1].post, employee_list[id-1].gender, employee_list[id-1].salary);
 }
