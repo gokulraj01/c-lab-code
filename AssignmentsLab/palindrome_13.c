@@ -17,6 +17,7 @@ void main(){
    int len = 0, palin = 1;
    while(str[++len] != '\0');
 
+    // checking from both ends of string
    for(int i=0; i < len/2; i++){
        if(str[i] != str[len-i-1]){
            palin = 0;

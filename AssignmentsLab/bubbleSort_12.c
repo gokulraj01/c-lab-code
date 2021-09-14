@@ -1,6 +1,6 @@
 // Author: Gokul Raj, 235, R2A, CSE
 
-//Experiment 12 - Sort the elements in an array using Bubble Sort.
+// Experiment 12 - Sort the elements in an array using Bubble Sort.
 #include <stdio.h>
 #include <stdbool.h>
 
